@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    animation: fadeInAnimation ease 2.5s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+    background-color: #3754aa;
+    /*font-family: ;*/
+}
+
+@keyframes fadeInAnimation {
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+.logo {
+    position: relative;
+    width: 8%;
+    margin: 10px 0px 0px 25px;
+}
+
+.topnav {
+    margin: -95px 0px 0px 0px;
+    overflow: hidden;
+    padding: 20px 0px 15px 1030px;
+    }
+    
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    }
+    
+.page1{
+    margin-left: 65px;
+    padding: 32px 140px 10px 120px;
+}
+
+.page1 .custom{
+    position: relative;
+    width: 100%;
+}
+
+.page1 .learn1{
+    position: absolute;
+    top: 510px;
+    left: 185px;
+    width: 11%;
+}
+
+.page2{
+    padding: 50px 60px 50px 100px;
+}
+
+.page2 .magisk{
+    position: relative;
+    width: 100%;
+}
+
+.page2 .learn2{
+    position: absolute;
+    top: 1170px;
+    left: 100px;
+    width: 11%;
+}
+
+.page3{
+    margin-top: -30px;
+    padding: 0px 60px 0px 100px;
+}
+
+.page3 .root{
+    position: relative;
+    width: 100%;
+}
+
+.page3 .learn3{
+    position: absolute;
+    top: 1860px;
+    left: 100px;
+    width: 11%;
+}
+
+.page4{
+    margin: 80px 0px 0px 0px;
+background-color: #152555;
+}
+
+.page4 .footer{
+    padding: 0px 17%;
+    position: relative;
+    width: 65%;
+}
+
+
+
+.icon-scroll-1,
+.icon-scroll-1:before{
+      position: absolute;
+  left: 50%;
+
+}
+
+.icon-scroll-1{
+
+  width: 40px;
+  height: 70px;
+  margin-left: 580px;
+  top: 50%;
+  margin-top: -5px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+
+}
+  
+.icon-scroll-1:before{
+
+     content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+ 
+.icon-scroll-2,
+.icon-scroll-2:before{
+      position: absolute;
+  left: 50%;
+
+}
+
+.icon-scroll-2{
+
+  width: 40px;
+  height: 70px;
+  margin-left: -580px;
+  top: 50%;
+  margin-top: -5px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+
+}
+  
+.icon-scroll-2:before{
+
+     content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+ 
+
+
+@keyframes scroll {
+  0%  {opacity: 1;}
+  100% {opacity: 0px; transform: translateY(46px);}
+}
+
+
